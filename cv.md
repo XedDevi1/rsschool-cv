@@ -20,3 +20,31 @@ Results-driven **.NET Developer with around 1 year of experience**, specializing
 + Addressing application disruptions and enhancing database query performance, increasing code coverage from 10% to 75%.
 Additionally, during my studies at the Itransition Group(intership), I gained practical experience and expertise in Advanced Web Development.
 Furthermore, at RUE Belpochta, I led the development of a parcel tracking system, replacing an outdated system and resulting in substantial improvements in parcel processing speed and report generation efficiency.
+
+**Some code:**
+```
+[HttpGet("{id}")]
+public async Task<IActionResult> GetUserById(int id)
+{
+    var user = await _userService.GetUserByIdAsync(id);
+    return Ok(user);
+}
+
+[HttpPost("assignRole")]
+public async Task<IActionResult> AssignRoleToUser([FromBody] UserRoleDto userRole)
+{
+    await _userService.AssignRoleToUserAsync(userRole);
+    return NoContent();
+}
+```
+### Courses:
+[_TMS_](https://teachmeskills.by/)
+![TMS](https://kappa.lol/l7zkp)
+
+[_Tinkoff_](https://www.tbank.ru/)
+![Tinkoff](https://kappa.lol/zyPjZ)
+
+### Goals:
+- [x] ~~Learn back-end technologies~~ :tada:
+- [x] ~~Learn algorithms~~ :tada:
+- [ ] Learn front-end technologies
