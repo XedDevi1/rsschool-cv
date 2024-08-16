@@ -1,4 +1,3 @@
-### rsschool-sv
 ## **Vadzim Presman** 
 ### **Junior Full-Stack Developer**
 ### **Contact information:** 
