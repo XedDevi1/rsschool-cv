@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(assets/fonts/RobotoMono-VariableFont_wght.ttf);
+}
+.test-border {
+    border: 1px solid;
+}
+
+body {
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto Mono";
+    font-size: 48px;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
