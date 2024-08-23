@@ -138,6 +138,7 @@ table {
 .body-markup {
     display: flex;
     justify-content: center;
+    min-height: 100vh;
     padding: 20px 0px;
     background-image: url(https://s3.stroi-news.ru/img/kartinki-tochki-9.png);
     background-repeat: repeat;
@@ -146,45 +147,41 @@ table {
 
 .body-content {
     width: 80%;
+    min-height: 100%;
     box-shadow: 0px 0px 25px 20px rgba(0, 0, 0, 0.233);
     border-radius: 3em;
     background-color: rgb(245, 245, 245);
 }
-
-.container {
-    box-sizing: border-box;
-    border:1px solid coral ;
-}
-
 .header-content {
     border: 1px solid red;
-    height: 10%;
-    padding: 10px;
     display: flex;
     justify-content: center;
+    height: 10vh;
 }
 
 .main-content {
-    height: 80%;
     width: 80%;
+    min-height: 80vh;
     margin: 0 auto;
     border: 1px solid black;
     box-sizing: border-box;
     padding: 2em;
 }
-.left-column{
+
+.left-column {
     border: 1px solid red;
     margin: 1em;
     height: 15em;
     width: 14em;
     margin: 20px;
 }
-.right-column{
+
+.right-column {
     border: 1px solid rgb(47, 255, 61);
     padding: 15px;
 }
 
-.photo{
+.photo {
     width: 14em;
     height: 15em;
 }
@@ -195,7 +192,6 @@ table {
 }
 
 .footer-content {
-    padding: 10px;
-    height: 10%;
     border: 1px solid rgb(22, 72, 255);
+    height: 10vh;
 }
