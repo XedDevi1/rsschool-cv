@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+</head>
+
+<body>
+    <div class="body-markup">
+        <div class="body-content">
+            <header class="header-content">
+                <nav class="nav-menu">
+                    <ul class="navigate-list-menu">
+                        <li class="list-item-menu"><a href="#contact-block">Contacts</a></li>
+                        <li class="list-item-menu"><a href="#expertise-block">Experience</a></li>
+                        <li class="list-item-menu"><a href="#education-block">Education</a></li>
+                        <li class="list-item-menu"><a href="#code-block">Code</a></li>
+                        <li class="list-item-menu"><a href="#course-block">Courses</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="main-content">
+                <div class="main-div">
+                    <div class="left-column">
+                        <img class="photo" src="assets/img/9d91082e-74f0-422e-91b0-bd4ce036766c.jfif"
+                            alt="profile-photo">
+                    </div>
+                    <section class="right-column">
+                        <h1 class="title-h1">Vadzim Presman</h1>
+                        <article>
+                            <h2 class="title-h2">Junior full-stack developer</h2>
+                        </article>
+                        <section class="contacts">
+                            <h3 id="contact-block" class="title-h3">Contact information</h3>
+                            <ul class="contact-info">
+                                <li class="contact-info-list"><span class="bold-text">Phone number:</span> <a
+                                        href="tel:375256208111">+375(25)620-81-11</a></li>
+                                <li class="contact-info-list"><span class="bold-text">Email address: </span><a
+                                        href="mailto:vadim.presman@gmail.com">vadim.presman@gmail.com</a></li>
+                                <li class="contact-info-list"><span class="bold-text">Telegram username: </span><a
+                                        href="https://t.me/xeddevil">@XedDevi1</a></li>
+                                <li class="contact-info-list"><a
+                                        href="https://www.linkedin.com/in/vadimpresman/">LinkedIn</a> ← click here</li>
+                            </ul>
+                        </section>
+                    </section>
+                </div>
+                <div>
+                    <article>
+                        <h3 class="title-h3">Professional summary</h3>
+                    </article>
+                    <p class="about-me">Results-driven <span class="bold-text">.NET Developer with around 1 year of
+                            experience</span>, specializing in
+                        building scalable
+                        systems using <span class="bold-text">C# and ASP.NET Core.</span> Proven track record in <span
+                            class="bold-text">Telecommunications</span>, <span class="bold-text">Retail</span>, and
+                        <span class="bold-text">Tech
+                            Startup industries.</span> Skilled in <span class="bold-text">automating workflows</span>,
+                        <span class="bold-text">ensuring data security</span>, and <span class="bold-text">committed to
+                            clean coding practices.</span></p>
+                    <article>
+                        <h3 id="expertise-block" class="title-h3">Expertise includes:</h3>
+                        <ul class="main-list">
+                            <li class="list-item"><span class="bold-text">C# (3 years): </span>Proficient in developing
+                                clean and efficient code for
+                                diverse
+                                applications.</li>
+                            <li class="list-item"><span class="bold-text">ASP.NET Core: </span>Experienced in building
+                                scalable web applications from
+                                scratch.</li>
+                            <li class="list-item"><span class="bold-text">EntityFramework Core: </span>Accomplished in
+                                database design and management.
+                            </li>
+                            <li class="list-item"><span class="bold-text">REST, ADO.NET, xUnit:</span> Well-versed in
+                                implementing and testing robust
+                                APIs.</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h3 class="title-h3">In my recent role at TWNSD, I played a key role in:</h3>
+
+                        <ul class="main-list">
+                            <li class="list-item">Developing an admin panel with advanced filters, significantly
+                                improving product
+                                identification and data update processes.</li>
+                            <li class="list-item">Addressing application disruptions and enhancing database query
+                                performance, increasing
+                                code coverage from 10% to 75%. Additionally, during my studies at the Itransition
+                                Group(intership), I gained practical experience and expertise in Advanced Web
+                                Development. Furthermore, at RUE Belpochta, I led the development of a parcel tracking
+                                system, replacing an outdated system and resulting in substantial improvements in parcel
+                                processing speed and report generation efficiency.</li>
+                        </ul>
+
+                    </article>
+                    <article class="article-text">
+                        <h3 id="education-block" class="title-h3">Education</h3>
+                        <ul class="main-list">
+                            <li class="list-item">Belarusian State Academy of Communication 2019-2022</li>
+                            <li class="list-item">Vistula University 2024-now a days</li>
+                            <li>
+                                <ul class="main-list">
+                                    <li class="list-item">Russian - <span class="bold-text">Native</span></li>
+                                    <li class="list-item">English - <span class="bold-text">B1</span></li>
+                                    <li class="list-item">Polish - <span class="bold-text">B1</span></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h3 id="code-block" class="title-h3">Code</h3>
+                        <pre class="code-example">
+                            <code>
+[HttpGet("{id}")]
+public async Task GetUserById(int id)
+{
+    var user = await _userService.GetUserByIdAsync(id);
+    return Ok(user);
+}
+
+[HttpPost("assignRole")]
+public async Task AssignRoleToUser([FromBody] UserRoleDto userRole)
+{
+    await _userService.AssignRoleToUserAsync(userRole);
+    return NoContent();
+}
+                            </code>
+                        </pre>
+                    </article>
+                    <article>
+                        <h3 id="course-block" class="title-h3">Courses:</h3>
+                        <p class="course-name"><span class="bold-text">TMS course: </span><a
+                                href="https://github.com/XedDevi1/DishDeliveryWebSite">Дипломный проект
+                                "DishDeliveryWebSite"</a></p>
+                        <img class="certificate" src="https://kappa.lol/l7zkp" alt="TMS course">
+                        <p class="course-name"><span class="bold-text">T-Bank course</span></p>
+                        <img class="certificate" src="https://kappa.lol/zyPjZ" alt="T-Bank course">
+                    </article>
+                </div>
+            </main>
+            <footer class="footer-content">
+                <div>
+                    <a href="https://github.com/XedDevi1"><img class="footer-picture" src="assets/img/25231.png"
+                            alt="github" width="32" height="32"></a>
+                </div>
+                <div>
+                    <p class="app-date">24.08.2024</p>
+                </div>
+                <div>
+                    <a href="https://rs.school/courses/javascript-ru"><img class="footer-picture"
+                            src="assets/img/rs-school-logo.svg" alt="rs-school" width="64" height="64"></a>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

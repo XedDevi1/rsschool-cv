@@ -1,0 +1,290 @@
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(assets/fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*========================================== */
+body {
+    font-family: "Roboto Mono", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(86, 0, 147);
+}
+
+.body-markup {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px 0px;
+    background-image: url(https://s3.stroi-news.ru/img/kartinki-tochki-9.png);
+    background-repeat: repeat;
+    background-size: 0.5em;
+}
+
+.body-content {
+    width: 80%;
+    min-height: 100%;
+    box-shadow: 0px 0px 25px 20px rgba(0, 0, 0, 0.233);
+    border-radius: 3em;
+    background-color: rgb(255, 253, 208);
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 1em;
+    background-color: rgb(255, 253, 208);
+    border-radius: 3em 3em 0 0;
+    box-shadow: 0px -10px 20px gray
+}
+
+.list-item-menu {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin: 0 1em;
+    text-shadow: 0.6em 0.3em 0.45em rgb(131, 22, 255);
+}
+
+.main-content {
+    width: 80%;
+    min-height: 80vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 2em;
+}
+
+.main-div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title-h1 {
+    padding: 0.1em;
+    margin: 0.1em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.title-h2 {
+    padding: 0.1em;
+    margin: 0.1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.title-h3 {
+    margin: 1em 0;
+    padding: 0.1em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.left-column {
+    margin: 2%;
+}
+
+.right-column {
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.contacts {
+    margin-top: 2em;
+}
+
+.contact-info-list {
+    margin: 1em;
+}
+
+.photo {
+    width: 16em;
+    height: 16em;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.about-me {
+    text-wrap: pretty;
+    padding: 0 1em;
+}
+
+.main-list {
+    list-style-position: inside;
+    padding: 0 1em;
+}
+
+.list-item {
+    list-style-type: square;
+    padding: 2px;
+}
+
+.code-example {
+    border: 2px solid black;
+    padding: 2%;
+    box-shadow: 4px 4px;
+}
+
+.course-name {
+    margin: 2%;
+    font-style: oblique;
+}
+
+.certificate {
+    width: 80%;
+    height: 80%;
+    margin: 0 10%;
+}
+
+.footer-content {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0 0 3em 3em;
+    box-shadow: 0px 25px 25px 20px rgba(0, 0, 0, 0.182);
+}
+
+.app-date {
+    font-size: 0.9em;
+    color: grey;
+}
