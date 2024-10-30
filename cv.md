@@ -1,6 +1,5 @@
 # Junior Full-stack Developer
 ## Presman Vadim
-===
 <img src="/5219997956596426698.jpg" alt="photo" height = 300px width = 300px>
 
 ### Contact information:
