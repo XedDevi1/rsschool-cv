@@ -1,2 +1,1 @@
-# rsschool-cv
-repository for rsschool CV projects
+https://XedDevi1.github.io/rsschool-cv/cv
