@@ -1,5 +1,8 @@
 # Junior Full-stack Developer
-## Presman Vadim <img src="/5219997956596426698.jpg" alt="photo" height = 300px width = 300px>
+## Presman Vadim
+===
+<img src="/5219997956596426698.jpg" alt="photo" height = 300px width = 300px>
+
 ### Contact information:
 * phone number: +375(25)620-81-11/+48(500)254-227
 * e-mail: vadim.presman@gmail.com
@@ -7,9 +10,8 @@
 ### About my self
 Enthusiastic and motivated full-stack developer with a strong foundation in programming and a keen interest in leveraging technologies to build robust and scalable applications. Eager to learn and grow in a dynamic and challenging environment where I can contribute my skills and gain valuable industry experience.
 ### Skills
-**Front-end** Technologies: **JavaScript, HTML, CSS**
-===
-**Back-end** Technologies: **C#, SQL, ASP.NET Core, Entity Framework, RESTful APIs**
+* **Front-end** Technologies: **JavaScript, HTML, CSS**
+* **Back-end** Technologies: **C#, SQL, ASP.NET Core, Entity Framework, RESTful APIs**
 ### Code example
 **Admin controller for my API:**
 ```
